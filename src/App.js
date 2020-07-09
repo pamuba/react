@@ -7,6 +7,8 @@ import Message from './components/Message'
 import Counter from './components/Counter'
 import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
+import UserGreeting from './components/UserGreeting'
+
 
 
 class App extends Component{
@@ -14,7 +16,9 @@ class App extends Component{
     return (
           <div className="App">
 
-          <ParentComponent></ParentComponent>
+          <UserGreeting></UserGreeting>
+
+          {/* <ParentComponent></ParentComponent> */}
 
           {/* <EventBind></EventBind> */}
 
