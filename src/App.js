@@ -8,7 +8,10 @@ import Counter from './components/Counter'
 import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
-
+import  FragmentDemo  from './components/FragmentDemo'
+import ParentComp from './components/ParentComp'
+import ClickCounter from './components/ClickCounter'
+import HoverCounter from './components/HoverCounter'
 
 
 class App extends Component{
@@ -16,7 +19,14 @@ class App extends Component{
     return (
           <div className="App">
 
-          <UserGreeting></UserGreeting>
+          <HoverCounter></HoverCounter>
+
+          <ClickCounter></ClickCounter>
+
+          {/* <ParentComp></ParentComp> */}
+
+          {/* <FragmentDemo></FragmentDemo> */}
+          {/* <UserGreeting></UserGreeting> */}
 
           {/* <ParentComponent></ParentComponent> */}
 
